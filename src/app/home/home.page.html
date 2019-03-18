@@ -1,12 +1,25 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+     Seja bem-vindo ao Mel.music
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content>
+
+
+<ion-input [(ngModel)]="valor1">   </ion-input>
+<ion-input [(ngModel)]="valor2">   </ion-input>
+<ion-input [(ngModel)]="valor3">   </ion-input>
+
+<ion-button (click)="somar()">
+
+  OK!
+
+  </ion-button>
+
 </ion-content>
+
+
+<ion-footer>
